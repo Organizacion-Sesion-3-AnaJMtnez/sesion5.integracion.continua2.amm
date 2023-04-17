@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "jest": "^29.5.0"
+  },
+  "name": "sesion5.integracion.continua2.amm",
+  "description": "Esta integración continua se quiere realizar con Jest\r https://jestjs.io/es-ES/",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Ana J. Martinez",
+  "license": "ISC"
+}
