@@ -4,6 +4,19 @@ const mathOperations = require('./calculator');
 
 describe("Calculator tests", () => { 
 
+ test('ispar 4 should return true', () => { 
+
+        // arrange and act 
+     
+        var result = mathOperations.ispar(4) 
+     
+           
+        // assert 
+     
+        expect(result).toBe(true); 
+     
+ }); 
+
  test('adding 1 + 2 should return 3', () => { 
 
    // arrange and act 
